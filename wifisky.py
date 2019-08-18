@@ -13,9 +13,11 @@ logo = """\033[93m               __   ___ __         __
        """
 
 menu = """\033[97m
-{1}-- WPS ATTACK
-{2}-- WPA/WPA2 ATTACK
-{3}-- CAP BRUTFORCE
+{1}--WPS ATTACK
+{2}--WPA/WPA2 ATTACK
+{3}--CAP BRUTFORCE
+{0}--INSTALL & UPDATE
+{99}-EXIT
     
 """
 
@@ -68,6 +70,14 @@ def  select():
 		sv = raw_input("File Name : ")
 		airo = 'airodump-ng -c {0} --bssid {1} -w {2} {3}'.format(ch, bssid, sv, interface)
 		system(airo)
+    elif choice == 99:
+		exit
+    elif choice == 0:
+		os.system("clear")
+		print("This tool is only available for Linux and similar systems  ")
+		os.system("git clone https://github.com/Manisso/wifisky.git")
+		os.system("cd wifisky && sudo bash ./update.sh")
+		os.system("wifisky")	
     elif choice == 3:
 		wordlist = raw_input("wordlist : ")
 		save2 = raw_input("Enter the CAP file name : ")
