@@ -4,6 +4,30 @@ import subprocess
 from os import system
 from time import sleep
 
+follow = """
+{+}-- https://www.facebook.com/dzmanisso
+{+}-- https://twitter.com/ManissoDz
+{+}-- https://github.com/Manisso
+{+}-- https://www.linkedin.com/in/Manisso
+{+}-- https://www.instagram.com/man.i.s/
+"""
+"""
+Wash is a utility for identifying WPS enabled access points. It can survey from a live interface or it can scan a list of pcap files.
+Wash is an auxiliary tool designed to display WPS enabled Access Points and their main characteristics. Wash is included in the Reaver package.
+Homepage: https://github.com/t6x/reaver-wps-fork-t6x
+Author: Tactical Network Solutions, Craig Heffner, t6_x, DataHead, Soxrok2212
+License: GPLv2 
+"""
+"""
+Reaver implements a brute force attack against Wifi Protected Setup (WPS) registrar PINs in order to recover WPA/WPA2 
+Reaver has been designed to be a robust and practical attack against WPS, and has been tested against a wide variety of access points and WPS implementations.
+On average Reaver will recover the target AP’s plain text WPA/WPA2 passphrase in 4-10 hours, depending on the AP. In practice, it will generally take half this time to guess the correct WPS pin and recover the passphrase
+Source: https://github.com/t6x/reaver-wps-fork-t6x
+Reaver Homepage | Kali Reaver Repo
+Author: Tactical Network Solutions, Craig Heffner
+License: GPLv2
+"""
+
 
 logo = """\033[93m               __   ___ __         __          
     .--.--.--.|__|.'  _|__|.-----.|  |--.--.--.
