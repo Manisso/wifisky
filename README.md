@@ -3,3 +3,13 @@
 [![OS](https://img.shields.io/badge/Tested%20On-Linux%20%7C%20Android-yellowgreen.svg)](https://termux.com/)
 # wifisky ![alt tag](http://icons.iconarchive.com/icons/icons8/ios7/48/Network-Wifi-Logo-icon.png)
 This Tools is a Python script for pentesting wireless networks
+
+# Menu
++ WPS ATTACK
++ WPA/WPA2 ATTACK
++ CAP BRUTFORCE
++ INSTALL & UPDATE
++ EXIT
+
+# WPS ATTACK
+
