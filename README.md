@@ -16,7 +16,7 @@ This Tools is a Python script for pentesting wireless networks
 ## Installation [Linux](https://wikipedia.org/wiki/Linux) [![alt tag](http://icons.iconarchive.com/icons/dakirby309/simply-styled/32/OS-Linux-icon.png)](https://fr.wikipedia.org/wiki/Linux)
 
 ```bash
-bash <(wget -qO- https://git.io/fjxv8)
+bash <(wget -qO- https://git.io/fjxvR)
 ```
 
 
