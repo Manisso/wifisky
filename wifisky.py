@@ -62,7 +62,7 @@ def quit():
 
 def  select():
   try:
-    choice = input("\033[92mFIWI~# \033[0m")
+    choice = input("\033[92mWIFISKY~# \033[0m")
     if choice == 1:
 	  os.system("airmon-ng")
 	  interface = raw_input("Enter your Interface : ")
